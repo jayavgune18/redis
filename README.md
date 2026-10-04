@@ -49,3 +49,7 @@ The project currently has no automated test command. Start the application with:
 ```bash
 node server.js
 ```
+
+## Interview questions and answers
+
+For Redis interview preparation notes, see [redis-interview-questions-answers.md](./redis-interview-questions-answers.md).
