@@ -41,6 +41,7 @@ curl http://localhost:9000/
 - `hashmap.js` - Redis hash command examples.
 - `list.js` - Redis list command example.
 - `set.js` - Redis sorted-set command examples.
+- `vector.js` - stores and reads a simple embedding/vector value in Redis.
 
 ## Available npm commands
 
