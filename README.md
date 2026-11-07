@@ -41,6 +41,7 @@ curl http://localhost:9000/
 - `hashmap.js` - Redis hash command examples.
 - `list.js` - Redis list command example.
 - `set.js` - Redis sorted-set command examples.
+- `geospatial.js` - adds city coordinates and searches locations with Redis geospatial commands.
 - `json.js` - stores and reads a JSON object as a Redis string.
 - `vector.js` - stores and reads a simple embedding/vector value in Redis.
 
