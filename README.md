@@ -45,6 +45,7 @@ curl http://localhost:9000/
 - `json.js` - stores and reads a JSON object as a Redis string.
 - `vector.js` - stores and reads a simple embedding/vector value in Redis.
 - `stream.js` - adds messages to a Redis stream and reads them with a consumer group.
+- `TTL.js` - sets and checks a key's expiration time with Redis TTL commands.
 
 ## Available npm commands
 
