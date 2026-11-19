@@ -47,6 +47,7 @@ curl http://localhost:9000/
 - `stream.js` - adds messages to a Redis stream and reads them with a consumer group.
 - `pubsub.js` - publishes a message and receives it through a Redis Pub/Sub channel.
 - `TTL.js` - sets and checks a key's expiration time with Redis TTL commands.
+- `Probabilistic.js` - demonstrates a Redis Bloom filter with `BF.ADD` and `BF.EXISTS` (requires RedisBloom).
 
 Run the Pub/Sub example with:
 
