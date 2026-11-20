@@ -46,6 +46,7 @@ curl http://localhost:9000/
 - `vector.js` - stores and reads a simple embedding/vector value in Redis.
 - `stream.js` - adds messages to a Redis stream and reads them with a consumer group.
 - `pubsub.js` - publishes a message and receives it through a Redis Pub/Sub channel.
+- `transactions.js` - runs multiple Redis commands atomically with `MULTI`/`EXEC`.
 - `TTL.js` - sets and checks a key's expiration time with Redis TTL commands.
 - `Probabilistic.js` - demonstrates a Redis Bloom filter with `BF.ADD` and `BF.EXISTS` (requires RedisBloom).
 
@@ -53,6 +54,12 @@ Run the Pub/Sub example with:
 
 ```bash
 node pubsub.js
+```
+
+Run the transaction example with:
+
+```bash
+node transactions.js
 ```
 
 ## Available npm commands
